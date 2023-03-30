@@ -31,3 +31,4 @@ int é uma função que converte algo para um int
 como tivemos o problema do input que sempre retorna uma string, precisamos fazer essa conversão
 
 int() o parametro é o valor que queremos converter para int
+

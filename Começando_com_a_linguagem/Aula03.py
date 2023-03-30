@@ -10,13 +10,16 @@ ele tem o ":" que representa o bloco depois e tambem necessita mais de 4 espaço
 
 então tudo que tem dentro, precisa estar 4 espaços para frente
 
-#-------------FORMATAÇÃO DE STRINGS-----------------
-
-Dentro do print, quando queremos substutuir algo na frase por alguma variavel, podemos colocar chaves indicando onde vai ser a
-substituição.
-
-print("Rodada {} de {}".format(rodada, tentativas)) -> ali, vai ser substituido pelos valores das variáveis, usando a função format
-essa função entra como parametros os valores que queremos substituir dentro da string
-
 #--------------FOR----------------------------------
 
+for é um laço de repetição, contudo, no python ele nao tem parametros, mas sim, usamos a função 'in range(inicio, final, step)'
+o 'final' dentro do parametro é exclusivo ou seja, num print por exemplo ele nao printa (poderiamos colocar o 'final+1' para realmenrte pegar)
+o 'step' é um numero que representa os passos dentro desse conjunto de numeros
+sem o 'range' podemos usar [1,2,3,4] por exemplo: for in [1,2,3] ele apenas roda 3 vezes
+o for não possui parenteses, alem disso, precisamos colocar oq queremos fazer o loop, por exemplo: for rodada in range(1,tentativas+1)
+essa rodada, vai ficar acrescentando de um em um, pois por padrão, o step é 1
+
+#--------------FIM DO LAÇO--------------------
+
+break faz uma interrupção abrupta, contudo, ele não é muito recomendado
+continue é um tipo de interrupção da interação, contudo o laço não é quebrado, ele apenas nao executa as linhas abaixo do continue e volta para a proxima interação
