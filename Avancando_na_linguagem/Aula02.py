@@ -33,6 +33,21 @@ list(tuple) -> mesma coisa, mas agora um tuple se transforma em uma lista
 
 Conversao de sequencias imutaveis para mutaveis e vice versa -> ambas as funções são build-in
 
+--------------LIST COMPREHENSION------------------------------
+
+Quando inicializamos uma list pre definida, sempre colocamos [coisas] dentro
+contudo, quando queremos que ela seja dinamica, dependendo da relação que vamos colocar, podemos colocar um for dentro dela
+
+ex: lista = ["_" for letra in palavra] -> dessa maneira, fazemos um for e para cada letra da variavel palavra é colocado os valores na lista
+onde nesse caso, o valor é "_"
+
+como a palavra é uma variavel string e str é uma sequencia de valores, a variavel interna do loop "letra", para cada interação, vale a letra ( valor ) da 
+variável "palavra"
+
+Além disso, podemos colocar condicionais dentro da instancia da list. ex:
+  
+list[x for x in inteiros if x % 2 == 0] --> nesse caso, estamos apenas adicionando os números pares dentro da lista, o loop percorre
+uma outra lista "inteiros" e aplica um condicional para saber se é par, assim essa list só recebe como valores os numeros pares da lista "inteiros"
 
 
 
