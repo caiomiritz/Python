@@ -15,7 +15,7 @@ para continuar no loop
 A lista é uma ferramenta build-in, a mesma pode ter vários tipos de métodos que podem nos auxiliar
 para usar uma lista, basta criar uma variável e colocar []. ex: lista = []
   
-a lista, pode ter valores pré definidos dentro dela, separada por vírgula
+a lista, pode ter valores pré definidos dentro dela, separada por vírgula. ex: lista = ["_", "_", "_"]
 
 podemos acessar o índice dela para fazer a mudança. ex: lista[0] = valor
 nesse caso, o valor do indice 0 pode ser mudado
