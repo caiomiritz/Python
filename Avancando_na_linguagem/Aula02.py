@@ -27,7 +27,7 @@ lista = [t1, t2, t3] -> 3 tuples dentro dessa lista
 Isso é tipo uma matriz, então podemos acessar a tuple que quizermos pelo indice da lista e pelo indice do tuple
 ex: lista[0][3] -> acesso ao primeiro tuple na lista e isso acessando a quarta variavel do tuple [3]
   
-append(....) -> uma função que coloca um valor dentro de um tuple
+append(....) -> uma função que coloca um valor dentro de um tuple ou list
 tuple(lista) -> função que transforma uma list em um tuple ( retorno da função ), onde devemos armazenar em alguma variavel
 list(tuple) -> mesma coisa, mas agora um tuple se transforma em uma lista
 
