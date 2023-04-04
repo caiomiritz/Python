@@ -20,3 +20,13 @@ a lista, pode ter valores pré definidos dentro dela, separada por vírgula
 podemos acessar o índice dela para fazer a mudança. ex: lista[0] = valor
 nesse caso, o valor do indice 0 pode ser mudado
 
+#----------------USO DE STRINGS-------------
+
+para lidar com strings, seja com a comparação, ou algo do tipo, podemos usar muitos métodos da classe String
+por exemplo: 
+  
+.strip() -> tira os espaços de uma string ex: "Caio Raphaelli" -> "CaioRaphaelli"
+.lower() ou .upper() -> transforma a string em letra minuscula ou maiuscula ex: "CAIORAPHAELLI"
+  
+ dessa maneira, a comparação fica mais facil, porque oe python diferencia maiuscula de minuscula
+
