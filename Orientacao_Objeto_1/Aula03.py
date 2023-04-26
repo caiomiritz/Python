@@ -13,3 +13,39 @@ Esses atributos são acessíveis apenas dentro da classe mesmo, o pyhton avisa q
 ele não impede de acessar diretamente ( apenas dentro da mesma classe ), mas ele avisa
 
 OBS: Em outras classes, quando usamos as variáveis desses objetos, não consguimos acessos diretos 
+  
+---------------------------GET E SET------------------------------
+
+São métodos que acessam atributos, geralmente usados em atributos privados
+Assim como temos os acessos, temos os métodos modificadores ( setters )
+Dessa maneira conseguimos manter o código encapsulado e coeso, sem acessar diretamente os atributos
+
+-------------------------PROPRIEDADES---------------------------
+
+Embora tenhamos o os getter e setters, podemos usar propriedades, para usar o mesmo conceito
+sem usar esses métodos, apenas usando diretamente de uma variável
+
+usamos '@property' onde o método se trata de uma propriedade, e executa um método por "debaixo dos panos"
+
+Ex: @property
+    def nome(self):
+      return self.__nome
+ 
+Dessa maneira não precisamos chamar o método diretamente com variável.nome(), podemos usar sem parenteses
+Ex: variavel.nome -> dessa maneira ele executa aquele método da mesma maneira
+  
+Ele parece que acessa o atributo diretamente, mas como é uma property ele apenas executa aquele método escondido
+Funciona para os setters também, contudo a definição é diferente e a aplicação do valor não é por paramentro mas sim por '='
+
+Ex: @nome.setter
+    def nome(self, nome):
+      self.__nome = nome
+
+Dessa maneira temos o nosso setter, mas como eles são muito parecidos, diferenciando de um parametro, usamos '=' para atribuir o valor
+que queremos. Ex: variavel.nome = "Caio"
+
+Dessa maneira estamos usando o setter. Se usarmos apenar variavel.nome vamos usar o getter, e vai ter apenas o retorno desse atributo
+
+
+
+
