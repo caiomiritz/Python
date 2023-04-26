@@ -28,7 +28,11 @@ Quando um dos atributos é fixo, podemos colocar o parametro fixo na construtora
 
 OBS: Se formos instanciar um objeto com atributo fixo não precisamos passar o mesmo por parametro
   
+------------------------ACESSANDO OS ATRIBUTOS-----------------------
 
+Usamos a variável que aponta para o objeto para acessar os atributos do mesmo
+Ex: variavel.atributoX
+    
 
 
 
