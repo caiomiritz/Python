@@ -23,4 +23,6 @@ Ex: def setNome(self, nome):
       
 Nesse caso estamos mudando a variável nome através de um método, onde seu valor é passado por parametro
 
+OBS: 'none' é equivalente a 'NULL', podemos atribuir esse valor para variáveis de referencias que nao estao sendo usadas
+Visto que em algum momento o pyhton coleta o "lixo", basicamente deleta os objeto que não são usados, objetos perdidos
 
