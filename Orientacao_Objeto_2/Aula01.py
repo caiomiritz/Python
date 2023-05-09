@@ -19,4 +19,14 @@ Nesse caso, o atributo comum é nome, e com apenas um '_' temos esse atributo pr
 
 ------------------REUTILIZAÇÃO------------------------
 
+Na construção das filhas, ainda temos uma duplicação de código, para arrumar isso utilizamos 'super'
+assim, temos que chamar o inicializador da classe mãe
+
+super().__init__(parametros comuns)
+self.__atributoProprio
+
+Assim, diminuimos o código na construtora da filha e colocar os atributos direto da mãe
+Assim com essa herança, conseguimos usar todos os métodos da classe mãe, como properties, getters, setters, etc
+
+
 
