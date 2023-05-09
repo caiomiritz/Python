@@ -26,4 +26,10 @@ Esse método é igual ao método da superclasse
 
 --------------------REPRESENTAÇÃO TEXTUAL DE OBJETOS-----------------
 
+Método especial
 
+def __str__(self):
+  return X            -> Isso retorna a representação textual de um determinado objeto
+
+print(objeto) -> assim vamos acessar esse método __str__ para representar o obejto textualmente
+f' {atributo} - {atributo2} ......'  -> isso deixa tudo como string com uma formatação das chaves {}
