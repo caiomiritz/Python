@@ -9,8 +9,14 @@ Site é basicamente composto pelo domínio (base), seguido dos parametros que fu
 ------------------FATIAMENTO DE STRINGS---------------------
 
 O que é fatiamento ? Funcionalidade do Python, onde conseguimos extrair um pedaço de uma string
-Como uma string é tipo um array, onde para fatiar, precisamos escolher o início ( inclusivo ) e o final ( excluivo )
+Como uma string é tipo um array, onde para fatiar, precisamos escolher o início ( inclusivo ) e o final ( exclusivo )
 
 Ex: texto = 'abcd'
 texto[0:2] -> fatiamos iniciando pelo 'a' e terminando no 'b' ( lembrando que o final é exclusivo ) ou seja -> 'ab'
+O fatiamento não altera a String original, ja que Strings são Sequence Types imutáveis.
+
+
+
+
+
 
