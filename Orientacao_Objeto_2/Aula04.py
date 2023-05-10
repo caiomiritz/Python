@@ -35,7 +35,7 @@ Representação: __str__, __repr__
 Container, sequencia: __contains__, __iter__, __len__, __getitem__
 Numéricos: __add__, __sub__, __mul__, __mod__
   
-São inúmeros dada methods, mas esses são os principais -> um append por exemplo é herdade do __add__
+São inúmeros dada methods, mas esses são os principais -> um tipo "append" por exemplo é herdade do __add__
 São tipo de interface, mas é mais uma ideia de protocolo, onde o objeto precisa se comportar daquele jeito
 assim precisamos implementar métodos magic para trabalhar com esses aspectos da linguagem
 
