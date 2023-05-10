@@ -25,4 +25,6 @@ Para tirar a complexidade basta desfazer a herança, perdendo muita coisa
 Mas com essa herança, não sabemos o quao grande ficaria e complexo essa herança
 list é uma classe gigantesca com muitos métodos que podem trazer problemas na nossa classe iterável
 
+Temos que ter um encapsulamento, mas sem depender tantos de uma superclasse que não conhecemos 100%
+
 
