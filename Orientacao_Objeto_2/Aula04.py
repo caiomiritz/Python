@@ -39,3 +39,29 @@ São inúmeros dada methods, mas esses são os principais -> um tipo "append" po
 São tipo de interface, mas é mais uma ideia de protocolo, onde o objeto precisa se comportar daquele jeito
 assim precisamos implementar métodos magic para trabalhar com esses aspectos da linguagem
 
+--------------------------------INTERFACES--------------------------------------
+
+A interface do Python é diferente de Java / C++, em python é apenas obrigado a implementar métodos
+
+Abstract Base Classes (ABC) são classes abstratas que servirão de base, pois não é muito comum criar do zero
+classes abstratas. Se quizermos criar uma classe que depende de outra, vemos se ja existe uma base pronta
+
+from abc import ABC
+from collections.abc import MutableSequence
+
+Dessa mandeira, importamos uma sequencia mutavel de uma classe base. Assim, basta herdar do que queremos
+Mas precisamos implemnetar método que irão fazer parte da MutableSequence para se comportar como uma classe ABC
+
+Isso veio para complementar o Duck Typing, mas as vezes queremos que a classe tenha outros comportamentos garantidos
+porque o ABC força a validação para ver se realmente a classe se comporta dessa maneira
+
+from numbers import Complex -> é um exemplo onde a classe vai ser tratada como numero complexo
+
+Instanciando um objeto, vai dar um erro mostrando quais metodos precisamos implementar para funcionar da menria correta
+As vezes a classe de métodos abstratos ja tem os metodos implementados na superclasse, assim podemos reaproveitar 
+
+Ex: def __getitem__(self, item):
+    super().__getitem__()               --> dessa maneira o metodo é implementado na superclasse, e estamos apenas reaproveitando
+
+Mas claro, podemos implementar nós mesmos, sobreescrevendo os métodos
+
