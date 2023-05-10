@@ -19,3 +19,8 @@ Tudo isso porque Alura esta na frente de Caelum na implementação da classe la 
 
 ----------------------------MIXINS---------------------------------
 
+Imaginaneros que temos uma classe bem distinta com algumas caracteristicas que queremos para todos
+Assim tentamos separar classes pequenas que não queremos instanciar obejtos delas, apenas para 
+compartilhar características pequenas
+
+Assim não precisamos implementar em varias classes diferentes esse medodo, apenas usamos essa herança
