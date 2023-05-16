@@ -11,4 +11,11 @@ if url == "": verifica se a url é vazia
 
 raise ValueError("mensagem de erro")
 
-----------------------
+----------------------NONE VS EMPTY-----------------------
+
+None -> objeto próprio do Pyhton "NoneType"
+None não tem o método Strip da String 
+
+String vazia (empty) e None são diferentes, mas ambos são considerados false
+É bom ter um if para verificar se o objeto é um None ou é String vazia
+
