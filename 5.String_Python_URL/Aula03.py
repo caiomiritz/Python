@@ -26,7 +26,10 @@ import re -> "Regular Expressions" / "ReqEx"
 
 padrao = re.compile("[]") -> Dentro dos [] mostramos o padrão da escrita, retornando o objeto padrão
 pódemos colocar "?" para mostra se o grupo dentro do [] pode aparecer ou não
+("string") -> usando () queremos ver no compile() se uma String específica está correta 
+
 o obejto padrao tem métodos, como search() retornando #match ou none, caso o padrão não seja achado
+match() -> ele verifica se a String bate exatamente como um padrão
 
 busca = padrao.search(String qualquer)
 if busca:
