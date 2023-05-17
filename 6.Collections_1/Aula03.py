@@ -27,3 +27,8 @@ def passa_o_mes(self):      -> isso é um metodo abstrato, onde nas classes filh
   pass
   
 Não queremos instanciar objetos da classe Conta, ja que ela serve como uma organização
+
+--------------------IGUALDADE E __eq__--------------------
+
+
+
