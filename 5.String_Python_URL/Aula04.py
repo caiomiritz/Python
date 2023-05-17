@@ -27,3 +27,6 @@ Assim, para comparar Strings ( que é um objeto ), precisamos usr métodos espec
 
 Mesmo sobrescrevendo o método __eq__ eles não são identicos, pois o método id() mostra a indentificação do objeto
 Precisamos usar o comparador "is" para verificar se eles tem a mesma identidade, mesmo local da memória Ex: 1 is True
+  
+É muito importante também verificar se os tipos dos objetos são iguais para validar sua igualdade também, porque podemos 
+ter classes diferentes mas com atributos iguais, e para não fazer a comparação ( exemplo, de código ), precisamos ver se o tipo é igual
